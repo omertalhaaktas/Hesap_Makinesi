@@ -203,11 +203,6 @@ namespace HesapMakinesi
             focusukaldir();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnEsittir_Click(object sender, EventArgs e)
         {
             ikincisayi = Convert.ToDouble(txtAna.Text);
@@ -251,14 +246,6 @@ namespace HesapMakinesi
                 }
             }
             SonucGoster();
-        }
-
-        private void button35_KeyUp(object sender, KeyEventArgs e)
-        {
-        }
-
-        private void button35_KeyDown(object sender, KeyEventArgs e)
-        {
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -350,10 +337,6 @@ namespace HesapMakinesi
             }
         }
 
-        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-        }
         private void btnArtiEksi_Click(object sender, EventArgs e)
         {
 
@@ -409,12 +392,5 @@ namespace HesapMakinesi
             txtAna.Text = "0";
             focusukaldir();
         }
-
-        private void button21_KeyDown(object sender, KeyEventArgs e)
-        {
-        }
-
-
-
     }
 }
